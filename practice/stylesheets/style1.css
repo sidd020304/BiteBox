@@ -1,0 +1,14 @@
+ol{
+    background-color: rgb(178, 115, 237);
+}
+ol li{
+    background-color: aqua;
+    margin:10px;
+}   
+h1{
+    background-color: plum;
+    margin: 15px;
+    padding: 60px;
+    height: 50px;
+    box-sizing: border-box;
+}

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:"Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 nav div a {
@@ -24,21 +24,102 @@ ul {
     list-style: none;
     gap: 20px;
 }
-a:hover{
+
+a:hover {
     color: red;
 }
-nav div li:last-child a{
+
+nav div li:last-child a {
     background-color: orangered;
-    padding:5px 10px;
+    padding: 5px 10px;
     border-radius: 10px;
 }
-nav div li:last-child a:hover{
+
+nav div li:last-child a:hover {
     background-color: chocolate;
-    color:bisque;
+    color: bisque;
 }
- nav h2{
+
+nav h2 {
     color: white;
 }
-.active{
+
+.active {
     text-decoration: underline red double;
+}
+
+.hero {
+    background-color: orange;
+    height: 90vh;
+    background: url('..//images/Banner.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: darkred;
+}
+
+.video-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 40px;
+}
+
+.video-text {
+    flex: 1;
+}
+
+.video-box {
+    flex: 1;
+}
+
+.video-box video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-text h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.video-text p {
+    font-size: 18px;
+    color: #444;
+}
+
+.about {
+    text-align: center;
+    background-color: #edeaea;
+    padding: 60px 20px;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgba(255, 0, 0, 0.615);
+}
+
+.about p{
+    max-width: 700px;
+    line-height: 1.6;
+    margin: auto;
+    font-size: 18px;
+    color: #555;
 }

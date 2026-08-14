@@ -12,3 +12,18 @@ h1{
     height: 50px;
     box-sizing: border-box;
 }
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    position:absolute;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: green;
+}

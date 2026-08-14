@@ -116,10 +116,86 @@ nav h2 {
     color: rgba(255, 0, 0, 0.615);
 }
 
-.about p{
+.about p {
     max-width: 700px;
     line-height: 1.6;
     margin: auto;
     font-size: 18px;
     color: #555;
+}
+
+.card {
+    background-color: #edeaea;
+    padding: 15px;
+    /* border: 2px solid black; */
+    text-align: center;
+    box-shadow: 5px 5px 2px 0 gray;
+    border-radius: 5px;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    /* border: 2px solid black; */
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 75%;
+    margin-bottom: 15px;
+}
+
+.card button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.card button:hover {
+    background-color: darkred;
+}
+
+.icon-box {
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon-box img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid wheat;
+    padding: 5px;
+}
+
+.Category-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.icon-box p{
+    margin-top: 8px;
+    font-size: 14px;
+}
+.icon-box img:hover{
+    /* skew(ndeg) rotate (ndeg) translate(12px,12px) */
+    transform:scale(1.1) ;
+    border-color: black;
+    transition:0.5s;
+
+}
+header{
+    position:sticky;
+    top:0;
+    z-index: 100;
 }

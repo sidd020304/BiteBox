@@ -183,19 +183,109 @@ nav h2 {
     overflow: auto;
 }
 
-.icon-box p{
+.icon-box p {
     margin-top: 8px;
     font-size: 14px;
 }
-.icon-box img:hover{
+
+.icon-box img:hover {
     /* skew(ndeg) rotate (ndeg) translate(12px,12px) */
-    transform:scale(1.1) ;
+    transform: scale(1.1);
     border-color: black;
-    transition:0.5s;
+    transition: 0.5s;
 
 }
-header{
-    position:sticky;
-    top:0;
+
+header {
+    position: sticky;
+    top: 0;
     z-index: 100;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    background-color: orange;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 40px;
+}
+
+thead {
+    background-color: orangered;
+    color: white;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 20px;
+}
+
+tbody tr {
+    border-bottom: 1px solid white;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.item img{
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+}
+
+.remove{
+    background-color: orangered;
+    border: none;
+    padding: 16px 12px;
+    cursor: pointer;
+    border-radius:10px ;
+}
+
+.remove:hover{
+    background-color: rgba(239, 71, 10, 0.618);
+}
+
+.Grand-total td {
+    font-weight: bold;
+    font-size:18px;
+}
+
+.Grand-total button{
+    margin-top:15px;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qty-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.qty-box button{
+    width: 28px;
+    height: 28px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius:4px;
+    cursor: pointer;
+}
+.qty-box button:hover{
+    background-color:rgba(239, 71, 10, 0.618) ;
+}
+
+.qty-box span{
+font-weight:bold;
+min-width: 20px;
 }

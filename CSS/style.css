@@ -210,6 +210,7 @@ table {
     overflow: hidden;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 thead {
@@ -482,4 +483,56 @@ border-top: 3px solid blue;
     color: white;
     padding: 3px 10px;
     border-radius: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+footer h2,h3{
+    margin-bottom: 10px;
+}
+
+footer span{
+    color: red;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+    font-size: 14px;
+}
+
+.footer-box ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.special-icons a{
+    display: inline-block;
+    background-color: rgba(239, 71, 10, 0.618);
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.special-icons a:hover{
+   background-color: red;
+   color: white;
 }

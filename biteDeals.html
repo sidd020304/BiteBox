@@ -1,11 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>biteDeals</title>
+    <link rel="stylesheet" href="CSS\style.css">
+    <link rel="shortcut icon" href="images\logo_32162.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h2>biteDeals</h2>
+    <header>
+        <nav>
+            <div>
+                <img src="images\logo.jpg" alt="logo" width="100px">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="biteDeals.html" class="active">Bite Deals</a></li>
+                    <li><a href="cart.html">Cart<i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a href="login.html">Login<i class="fa-solid fa-right-to-bracket"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Deal section -->
+    <section class="deals-page">
+        <!-- Hero box -->
+        <div class="deal-hero">
+            <h1>Bitedeals</h1>
+            <p>Save more for your favourite meals</p>
+        </div>
+        <!-- Combo section -->
+
+        <section class="combo-section">
+            <h2 class="section-title">Todays Combo Offer</h2>
+            <div class="combo-container">
+                <!-- Combo one -->
+                <div class="combo-card">
+                    <img src="images\Burger.png" alt="Burger">
+                    <h3>Burger+fries</h3>
+                    <p>Perfect Snacks Combo</p>
+                    <h4><span>₹399</span>₹299</h4>
+                    <button class="button">Order Now</button>
+                </div>
+
+                <div class="combo-card">
+                    <img src="images\Burger.png" alt="Burger">
+                    <h3>Burger+fries</h3>
+                    <p>Perfect Snacks Combo</p>
+                    <h4><span>₹399</span>₹299</h4>
+                    <button class="button">Order Now</button>
+                </div>
+
+                <div class="combo-card">
+                    <img src="images\Burger.png" alt="Burger">
+                    <h3>Burger+fries</h3>
+                    <p>Perfect Snacks Combo</p>
+                    <h4><span>₹399</span>₹299</h4>
+                    <button class="button">Order Now</button>
+                </div>
+
+            </div>
+        </section>
+        <!-- deal -->
+         <h2 class="section-title">Special Day Offer</h2>
+         <div class="deal-container">
+
+            <!-- card1 -->
+            <div class="deal-card red">
+                <h3>Friday Feast</h3>
+                <p>50% OFF on Burger</p>
+                <span>Use Code : FRI50</span>
+            </div>
+
+            <!-- card2 -->
+             <div class="deal-card yellow">
+                <h3>First Order</h3>
+                <p>Free Free</p>
+                <span>Use Code : FREE50</span>
+            </div>
+            
+            <!-- card3 -->
+             <div class="deal-card green">
+                <h3>Wenesday Special</h3>
+                <p>40% OFF on Non-veg</p>
+                <span>Use Code : WED40</span>
+            </div>
+
+            <!-- card4 -->
+             <div class="deal-card blue">
+                <h3>Sunday Feast</h3>
+                <p>Get Coke FREE With 2 Combos</p>
+                <span>Use Code : SUN2C</span>
+            </div>
+         </div>
+    </section>
 </body>
+
 </html>
